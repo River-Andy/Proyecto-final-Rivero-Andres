@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="Tienda de productos comestibles">
+         <script src="https://kit.fontawesome.com/6534783feb.js" crossorigin="anonymous"></script>
+         <title>Proyecto Tienda</title>
+         <link rel="stylesheet" href="./css/index.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+         <link rel="shortcut icon" href="./Imagenes/Logo_Editable_LosChamos_-01 favicon.png" type="image/x-icon">
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+            </style>
+         <link rel="stylesheet" href="css/carrito.css">
+    </head>
+  <body>
+    
+    <header>
+           
+        <h1 class="rubik-vinyl-regular"> Almacén de Productos </h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="./index.html">Inicio</a></li>
+            <li> <a href="./contacto.html">Contacto</a></li>
+            <li> <a href="./carrito.html">Carrito<i class="fa-solid fa-cart-shopping"></i></a></li>  
+        </ul>
+        
+    </nav>
+
+       <main>
+        <section class="carrito">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>                        
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="items"></tbody>
+            </table>
+            <br>
+        
+            <!-- Total a Pagar -->
+            <div id="total-pagar" >
+                Total: $0.00
+            </div>
+            <br>
+        
+            <!-- Botón Vaciar Carrito -->
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+
+            <br>
+
+            <!-- Botones de acción -->
+             <div class="acciones-carrito">
+                <button id="seguir-comprando">Seguir comprando</button>
+                <button id="finalizar-compra">Finalizar compra</button>
+             </div>
+
+        </section>
+        
+
+        </main>
+
+      <footer>
+    
+         <p>© 2024 Mi Tienda en Línea. Todos los derechos reservados.</p>
+         <p>Nos encontramos en la Estación Lanus, a cuadras de la estación. Para saber más ir a contactos</p>
+         <p>Todos los derchos reservados 2024.</p>
+        
+        <script src="./js/carrito.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     </footer>
+     
+
+   </body>
+</html>

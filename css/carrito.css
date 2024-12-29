@@ -1,0 +1,202 @@
+/* Encabezado y navegación */
+header {
+    background-color:red; 
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rubik-vinyl-regular {
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header h1 {
+    font-size: 35px;
+    color: white;
+    text-decoration: dotted;
+    font-style: normal;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 197, 230);
+    min-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+
+nav ul li {
+   
+    display: inline;
+   
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    font-family: "Outfit", sans-serif
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+   color: #F0B385;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+    min-height: 100vh;
+    
+    
+}
+
+/* Carrito */
+
+#carrito {
+   
+    margin: 20px;
+    text-align: left;
+    max-width: 800px;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    }
+
+   #carrito h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 40px ; 
+    
+   }
+
+   table {
+    width: 80%;
+    border-collapse: collapse; /* Elimina espacios entre bordes */
+    font-family: "Outfit", sans-serif;
+}
+
+th, td {
+    padding: 10px 20px; /* Espacio interno (arriba/abajo 10px, izquierda/derecha 20px) */
+    text-align: center; /* Centra el contenido */
+}
+
+th {
+    background-color: #f4f4f4; /* Color de fondo para encabezados */
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+}
+#total-pagar {
+margin-top: 10px; 
+font-size: 1.2em; 
+font-weight: bold;
+font-family: "Outfit", sans-serif;
+
+}
+
+.boton-modificar {
+    font-size: 12px;       /* Hace el texto más pequeño */
+    padding: 4px 8px;     /* Reduce el tamaño del botón */
+    border: none; /* Opcional: agrega un borde */
+    background-color: #28a745; /* Fondo claro */
+    cursor: pointer;      /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton-modificar:hover {
+    background-color: #ddd; /* Cambia el color del fondo al pasar el cursor */
+}
+
+.acciones-carrito {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.acciones-carrito button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#seguir-comprando {
+    background-color: #28a745;
+    color: white;
+}
+
+#seguir-comprando:hover {
+    background-color: #45a049;
+}
+
+#finalizar-compra {
+    background-color: #f44336;
+    color: white;
+}
+
+#finalizar-compra:hover {
+    background-color: #e53935;
+}
+
+#mensaje-carrito {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: #0A0A2A;
+    border: 2px solid #FF8000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 1000;
+}   
+
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: red;
+    color: #fff;
+    font-family: "Outfit", sans-serif
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}

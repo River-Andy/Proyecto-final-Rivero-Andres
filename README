@@ -1,0 +1,7 @@
+#Mi pagina es sobre venta de productos de computación. Destinado a un publico joven-adulto.
+#Proyecto final.
+#Utilize HTML5 - CSS - Javascript - Manejo del DOM - Conceptos de Flex y Grid - Media Queries .
+#La API usada para el pyoyecto fue DummyJson
+
+
+#Tuve problemas para crear el mensaje en el inicio para mostrar que se agrego un producto al carrito. Solo es visible abajo de todo
